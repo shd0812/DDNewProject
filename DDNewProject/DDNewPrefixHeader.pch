@@ -1,0 +1,29 @@
+//
+//  DDNewPrefixHeader.pch
+//  DDNewProject
+//
+//  Created by shen on 16/6/4.
+//  Copyright © 2016年 shen. All rights reserved.
+//
+
+#ifndef DDNewPrefixHeader_pch
+#define DDNewPrefixHeader_pch
+
+
+#import "ViewController.h"
+#import <AFNetworking/AFNetworking.h>
+#import <PureLayout/PureLayout.h>
+
+#define ScreenWith     [UIScreen mainScreen].bounds.size.width
+#define ScreenHeith     [UIScreen mainScreen].bounds.size.height
+
+
+#define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r, g, b)                        RGBA(r, g, b, 1.0f)
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* DDNewPrefixHeader_pch */
